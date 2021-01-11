@@ -32,6 +32,7 @@ namespace TimothyHsu_Interfaces.Models
         }
         public string ShowBankName()
         {
+            Console.WriteLine(BankName);
             return BankName;
         }
 
