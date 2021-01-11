@@ -3,7 +3,7 @@ using TimothyHsu_Interfaces.Interfaces;
 
 namespace TimothyHsu_Interfaces.Models
 {
-    class Transaction : Bank, ITransaction
+    public class Transaction : Bank, ITransaction
     {
         private readonly string _code;
         private readonly string _date;

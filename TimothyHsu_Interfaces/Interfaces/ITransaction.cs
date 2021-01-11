@@ -1,6 +1,6 @@
 ﻿namespace TimothyHsu_Interfaces.Interfaces
 {
-    interface ITransaction
+    public interface ITransaction
     {
         void ShowTransaction();
         double GetAmount();
